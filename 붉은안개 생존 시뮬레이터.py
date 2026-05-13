@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 import re
-
+# 내가 만든 거 아님. kjj021128의 파일을 바탕으로 친구들이랑 쓰려고 리테마링 중
 # --- [1] 도시의 전력 및 장비 데이터베이스 구축 ---
 BUDGET = 1300
 
