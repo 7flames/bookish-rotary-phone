@@ -16,6 +16,7 @@ guards_db = {
     "별을 읽는 올가": {"cost": 450, "power": 55, "dice": 15},
     "메리/메어리": {"cost": 275, "power": 20, "dice": 10},
     "아스타릴리스": {"cost": 500, "power": 60, "dice": 20},
+    "레베리": {"cost": 500, "power": 60, "dice": 20},
     "루나리아": {"cost": 500, "power": 65, "dice": 20},
     "라플리": {"cost": 500, "power": 65, "dice": 20},
     "베른카스텔": {"cost": 500, "power": 66, "dice": 20},
@@ -24,6 +25,7 @@ guards_db = {
     "호흐마이스터": {"cost": 625, "power": 90, "dice": 25},
     "레플리카": {"cost": 650, "power": 95, "dice": 25},
     "푸리나": {"cost": 675, "power": 80, "dice": 30}, 
+    "유성이": {"cost": 675, "power": 80, "dice": 30}, 
     "아레 마가트로이드": {"cost": 850, "power": 115, "dice": 30},
     "미하일라": {"cost": 900, "power": 130, "dice": 30}
 }
@@ -197,7 +199,7 @@ if st.button("⏳ 시뮬레이션 시작"):
         log_container = st.empty()
         survival_status = True
 
-        shin_users = ["에즈라", "뇌횡", "어느 싱클레어", "엄지 아비 발렌치나", "노란작살 베스파", "검지 아비 뤼엔", "붉은시선 베르길리우스", "가치우"]
+        commanders = ["아레 마가트로이드", "하융", "베른카스텔", "엄지 아비 발렌치나", "노란작살 베스파", "검지 아비 뤼엔", "붉은시선 베르길리우스", "가치우"]
 
         has_t_gear = "T사 보조 태엽" in selected_items
         t_gear_triggers = 0  # 가속이 터진 횟수 누적
