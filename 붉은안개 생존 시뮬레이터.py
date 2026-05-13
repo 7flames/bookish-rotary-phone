@@ -40,9 +40,9 @@ items_db = {
     "M사 월광석": {"cost": 425, "desc": "칼리가 이성을 되찾는 데 도움을 줘, 버텨야 할 시간을 18시간으로 단축합니다."}
 }
 
-st.set_page_config(page_title="붉은안개로부터 살아남기", layout="wide")
-st.title("붉은안개 생존 시뮬레이터")
-st.markdown("칼리가 당신을 연구소 테러범으로 착각하여, 미미크리를 뽑아듭니다...행운을 빌어요!")
+st.set_page_config(page_title="척추안개로부터 살아남기", layout="wide")
+st.title("베르케칸 생존 시뮬레이터")
+st.markdown("베르케 칸이 마침내 도래했습니다... 행운을 빌어요!")
 
 st.write("---")
 
